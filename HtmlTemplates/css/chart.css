@@ -1,0 +1,115 @@
+.b-chart {
+    position: relative;
+    margin-top: 25px;
+    padding-bottom: 5px;
+}
+
+.b-chart .chart_alert {
+    position: absolute;
+    bottom: 8px;
+    width: 1px;
+    background: #aaa;
+}
+
+.b-chart .chart_alert-content {
+    position: absolute;
+    top: -110px;
+    left: 0;
+    width: 240px;
+    height: 110px;
+    border: 1px solid #aaa;
+    padding: 15px 20px;
+    background: #fff;
+}
+
+.b-chart .chart_alert-content._reverse {
+    left: -239px;
+}
+
+.b-chart .chart_alert-date {
+    padding-bottom: 7px;
+    color: #999;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.b-chart .chart_alert-item {
+    padding: 4px 0;
+    font-size: 12px;
+    color: #333;
+}
+
+.b-chart .chart_alert-item:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.b-chart .chart_alert-item-name {
+    position: relative;
+    float: left;
+    padding-left: 15px;
+}
+
+.b-chart .chart_alert-item-value {
+    float: right;
+}
+
+.b-chart .chart_alert-item .chart_alert-item-name:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.b-chart .chart_alert-item._expense .chart_alert-item-name:before {
+    top: 2px;
+    width: 6px;
+    height: 7px;
+    background: #fdd74a;
+}
+
+.b-chart .chart_alert-item._refill .chart_alert-item-name:before {
+    top: 3px;
+    width: 6px;
+    height: 6px;
+    background: #4cbc5b;
+    border-radius: 50%;
+}
+
+.b-chart .chart_alert-item._balance .chart_alert-item-name:before {
+    top: 5px;
+    width: 6px;
+    height: 2px;
+    background: #d8dadc;
+}
+
+.b-chart .chart_alert-item._refill .chart_alert-item-value {
+    color: #098800;
+}
+
+.b-chart .chart_brush {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.b-chart g.tick line {
+    shape-rendering: crispEdges;
+    stroke: #000;
+}
+
+.b-chart path.domain {
+    fill: none;
+    stroke: #dbdbb4;
+}
+
+.b-chart rect.data {
+    fill: #fff;
+    opacity: .3;
+}
+
+.b-chart rect.data.-hovered {
+    fill: #ccc;
+}

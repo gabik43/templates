@@ -1,0 +1,16 @@
+1 - A1-A2-A3-A4;
+2 - MGM;
+3 - MSM;
+4 - PO-PR-PS-PC-PP-UE-VT-VI-VB-VCY-MQY-MSY-CM-CT;
+5 - PV-PM;
+6 - VCA;
+7 - VC-VCO-VCY-MQ-MS;
+8 - VCZ;
+9 - VE-CM;
+10 - VGA;
+11 - VG-VGG-MG;
+12 - VGZ;
+13 - VP-MP-VR
+14 - VPZ;
+15 - MW-MR;
+16 - VV-MV;

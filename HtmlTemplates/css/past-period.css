@@ -1,0 +1,196 @@
+.b-past-period {}
+
+.b-past-period ._devider {
+    display: none;
+}
+
+.b-past-period .past-period_header:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.b-past-period .past-period_header {
+    padding-bottom: 20px;
+}
+
+.ie678 .b-past-period .past-period_header {
+    padding-bottom: 21px;
+}
+
+.b-past-period .past-period_header-name {
+    float: left;
+    padding-top: 5px;
+    border-bottom: 1px dashed #999;
+    overflow: hidden;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.b-past-period .past-period_header-name:hover {
+    color: #ff8341;
+    border-bottom-color: #ff8341;
+}
+
+.b-past-period .past-period_status {
+    display: none;
+    position: relative;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #767676;
+}
+
+.b-past-period .past-period_status._ok {
+    padding-left: 13px;
+}
+
+.b-past-period .past-period_status._overdue {
+    padding-left: 19px;
+
+}
+
+.b-past-period .past-period_status._ok ._ok-icon,
+.b-past-period .past-period_status._overdue ._overdue-icon {
+    position: absolute;
+    left: 0;
+}
+
+.b-past-period .past-period_status._ok ._ok-icon {
+    top: 1px;
+    height: 8px;
+}
+
+.b-past-period .past-period_status._overdue ._overdue-icon {
+    top: -1px;
+    height: 13px;
+}
+
+.b-past-period .past-period_content-wrapper {
+    overflow: hidden;
+    transition: height .4s ease-in;
+}
+
+.b-past-period .past-period_content-inner {
+    position: relative;
+    transition: top .4s ease-in;
+    padding-bottom: 20px;
+}
+
+.b-past-period .past-period_content {
+    width: 100%;
+}
+
+.b-past-period .past-period_content-th {
+    padding: 3px 0 6px;
+    border-bottom: 2px solid #d0d0d0;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 10px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.b-past-period .past-period_content-th._empty {
+    width: 28%;
+}
+
+.b-past-period .past-period_content-th._credited {
+    width: 24%;
+}
+
+.b-past-period .past-period_content-th._settled {
+    width: 24%;
+}
+
+.b-past-period .past-period_content-th._overdue {
+    width: 24%;
+}
+
+.b-past-period .past-period_content-tbody-tr {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEBAMAAABb34NNAAAAD1BMVEUAAAD08uTo5trKyMGZmZlQtJw5AAAAAXRSTlMAQObYZgAAAA1JREFUCNdjUDFkgAEAA4IAVhxf4MMAAAAASUVORK5CYII=') 0 bottom repeat-x;
+}
+
+.b-past-period .past-period_content-tbody-tr:first-child .past-period_content-td {
+    padding-top: 15px;
+}
+
+.b-past-period .past-period_content-tbody-tr._last .past-period_content-td {
+    padding-top: 18px;
+    font-weight: bold;
+}
+
+.b-past-period .past-period_content-td {
+    padding: 12px 0 0;
+    text-align: right;
+    vertical-align: bottom;
+    font-size: 12px;
+}
+
+.b-past-period .past-period_content-td._name {
+    text-align: left;
+}
+
+.b-past-period .past-period_content-text {
+    background: #fff;
+}
+
+.b-past-period .past-period_content-text:after,
+.b-past-period .past-period_content-text:before {
+    content: '\00A0'
+}
+
+.b-past-period .past-period_content-td:first-child .past-period_content-text:before { content: ''; }
+.b-past-period .past-period_content-td._last .past-period_content-text:before { content: ''; }
+
+@media screen and (max-width: 1260px) {
+    .b-past-period .past-period_status {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .b-past-period .past-period_header-name {
+        overflow: visible;
+        border-bottom: none;
+    }
+
+    .b-past-period .past-period_header-name:hover {
+        border-bottom: none;
+        color: #000;
+    }
+
+    .b-past-period .past-period_header-name ._span {
+        border-bottom: 1px dashed #999;
+    }
+
+    .b-past-period .past-period_header-name:hover ._span {
+        border-bottom: 1px dashed #ff8341;
+        color: #ff8341;
+    }
+
+    .b-past-period ._devider {
+        display: block;
+    }
+
+    .b-past-period .past-period_header {
+        padding-bottom: 26px;
+    }
+}
+
+/* ie8 */
+
+.ie678 .js-lte-1260 .b-past-period .past-period_status {
+    width: 100%;
+    float: left;
+}
+
+.ie678 .js-lte-1170 .b-past-period ._devider {
+    display: block;
+}
+
+.ie678 .js-lte-1170 .b-past-period .past-period_header {
+    padding-bottom: 26px;
+}

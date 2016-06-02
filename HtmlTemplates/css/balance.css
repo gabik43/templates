@@ -1,0 +1,122 @@
+.b-balance {
+    min-height: 150px;
+}
+
+.b-balance._debet,
+.b-balance._history {
+    min-height: 0;
+}
+
+.b-balance .balance_header {
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    color: #767676;
+    letter-spacing: 1px;
+}
+
+.b-balance .balance_content {
+    width: 100%;
+}
+
+.b-balance .balance_content-tr {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEBAMAAABb34NNAAAAD1BMVEUAAAD08uTo5trKyMGZmZlQtJw5AAAAAXRSTlMAQObYZgAAAA1JREFUCNdjUDFkgAEAA4IAVhxf4MMAAAAASUVORK5CYII=') 0 bottom repeat-x;
+}
+
+.b-balance .balance_content-td {
+    padding-top: 10px;
+    vertical-align: bottom;
+}
+
+.b-balance .balance_content-td._left {
+    width: 63%;
+    text-align: left;
+}
+
+.b-balance .balance_content-td._right {
+    width: 37%;
+    text-align: right;
+}
+
+.b-balance .balance_content-td._left-indent {
+    position: relative;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.b-balance .balance_content-td._left-indent:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    height: 50px;
+    background: #fff;
+}
+
+.b-balance .balance_content-text {
+    position: relative;
+    background: #fff;
+    font-weight: bold;
+}
+
+.b-balance .balance_content-td._right .balance_content-text {
+    left: 1px;
+}
+
+.b-balance .balance_content-text ._note {
+    white-space: nowrap;
+    color: #808080;
+    font-weight: normal;
+}
+
+body._en .b-balance .balance_content-text ._note {
+    color: #000;
+    font-weight: bold;
+}
+
+.b-balance .balance_content-tr._detail .balance_content-text {
+    font-weight: normal;
+}
+
+.b-balance .balance_content-td._left .balance_content-text:after { content: '\00A0'; }
+.b-balance .balance_content-td._right .balance_content-text:before { content: '\00A0'; }
+
+@media screen and (max-width: 1260px) {
+    .b-balance {
+        min-height: 143px;
+    }
+
+    .b-balance .balance_content-td {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .b-balance {
+        min-height: 151px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .b-balance {
+        min-height: 163px;
+    }
+}
+
+/* ie8 */
+
+.ie678 .js-lte-1260 .b-balance {
+    min-height: 143px;
+}
+
+.ie678 .js-lte-1260 .b-balance .balance_content-td {
+    font-size: 12px;
+}
+
+.ie678 .js-lte-1170 .b-balance {
+    min-height: 151px;
+}
+
+.ie678 .js-lte-1070 .b-balance {
+    min-height: 164px;
+}

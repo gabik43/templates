@@ -1,0 +1,24 @@
+.b-footer {}
+
+.b-footer .footer_disclaimer {
+    padding-bottom: 50px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.b-footer .footer_copyright {
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+}
+
+.b-footer .footer_contacts {
+    font-size: 11px;
+    text-align: right;
+}
+
+.b-footer .footer_contacts ._phone {
+    color: #000;
+    text-decoration: none;
+}

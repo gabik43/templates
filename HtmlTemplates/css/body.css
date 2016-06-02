@@ -1,0 +1,33 @@
+.b-body {}
+
+#ReportPeriodStart,
+#ReportPeriodEnd,
+#BalanceStartNum {
+    display: none;
+}
+
+.b-body .body_popup-surround {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    background: #fff;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.b-body .body_popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    z-index: 10001;
+    opacity: 0;
+    transition: opacity 1s;
+}

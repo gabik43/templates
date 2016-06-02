@@ -1,0 +1,122 @@
+.b-card-opers {}
+
+.b-card-opers .card-opers_header {
+    text-transform: uppercase;
+    color: #767676;
+}
+
+.b-card-opers .card-opers_credit,
+.b-card-opers .card-opers_bonus,
+.b-card-opers .card-opers_debet-trs {
+    float: left;
+}
+
+.b-card-opers .card-opers_debet-trs,
+.b-card-opers .card-opers_credit {
+    margin-right: 60px;
+}
+
+.b-card-opers .card-opers_debet-trs .card-opers_item:first-child {
+    padding-right: 60px;
+}
+
+.b-card-opers .card-opers_items:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.b-card-opers .card-opers_item {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+}
+
+.b-card-opers .card-opers_credit .card-opers_item {
+    padding-bottom: 27px;
+}
+
+.b-card-opers .card-opers_debet-trs .card-opers_item-value {
+    display: inline-block;
+    padding-bottom: 7px;
+}
+
+.b-card-opers .card-opers_debet-trs .card-opers_item:first-child,
+.b-card-opers .card-opers_debet-trs .card-opers_item-value {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.b-card-opers .card-opers_debet-trs .card-opers_item:first-child .card-opers_item-value {
+    border-bottom: none;
+}
+
+
+.b-card-opers .card-opers_bonus .card-opers_item {
+    padding-bottom: 0; /*8*/
+}
+
+.b-card-opers .card-opers_item-label {
+    margin-bottom: 4px;
+    font-size: 12px;
+    color: #333;
+}
+
+.b-card-opers .card-opers_item-value,
+.b-card-opers .card-opers_item-sign {
+    font-size: 24px;
+}
+
+.b-card-opers .card-opers_item-value ._fraction {
+    font-size: 18px;
+}
+
+.b-card-opers .card-opers_item-sign {
+    position: absolute;
+    left: -16px;
+    color: #8d8d8d;
+}
+
+.b-card-opers .card-opers_total {
+    clear: both;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.b-card-opers .card-opers_credit .card-opers_item,
+.b-card-opers .card-opers_bonus .card-opers_item,
+.b-card-opers .card-opers_item-sign {
+    color: #098800;
+}
+
+@media screen and (max-width: 1170px) {
+    .b-card-opers .card-opers_item-value,
+    .b-card-opers .card-opers_item-sign {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .b-card-opers .card-opers_debet-trs,
+    .b-card-opers .card-opers_credit {
+        margin-right: 40px;
+    }
+
+    .b-card-opers .card-opers_debet-trs .card-opers_item:first-child {
+        padding-right: 40px;
+    }
+}
+
+/* ie8 */
+
+.ie678 .js-lte-1170 .b-card-opers .card-opers_item-value,
+.ie678 .js-lte-1170 .b-card-opers .card-opers_item-sign {
+    font-size: 20px;
+}
+
+.ie678 .js-lte-1070 .b-card-opers .card-opers_debet-trs,
+.ie678 .js-lte-1070 .b-card-opers .card-opers_credit {
+    margin-right: 40px;
+}
+.ie678 .js-lte-1070 .b-card-opers .card-opers_debet-trs .card-opers_item:first-child {
+    padding-right: 40px;
+}

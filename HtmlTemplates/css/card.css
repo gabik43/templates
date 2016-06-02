@@ -1,0 +1,180 @@
+.b-card {
+    position: relative;
+    width: 238px;
+    height: 153px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    color: #333;
+    text-shadow: 0 -1px 0 rgba(255,255,255,.8);
+}
+
+.b-card._white {
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.8);
+}
+
+.b-card .card_poster-src,
+.b-card .card_partnership-src,
+.b-card .card_pay-system-src,
+.b-card .card_color,
+.b-card .card_bg {
+    display: none;
+}
+
+.b-card .card_partnership,
+.b-card .card_pay-system {
+    /*display: none;*/
+}
+
+.b-card._small {
+    width: 150px;
+    height: 97px;
+}
+
+.b-card .card_poster {
+    height: 153px;
+}
+
+.b-card._small .card_poster {
+    height: 97px;
+}
+
+.b-card .card_partnership {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.b-card._small .card_partnership {
+    top: 0;
+    right: 0;
+}
+
+.b-card .card_pay-system {
+    position: absolute;
+    bottom: 13px;
+    right: 17px;
+}
+
+.b-card._small .card_pay-system {
+    bottom: 7px;
+    right: 9px;
+}
+
+.b-card .card_name {
+    display: none;
+}
+
+.b-card .card_number {
+    position: absolute;
+    top: 82px;
+    left: 19px;
+    letter-spacing: 1px;
+    font-size: 21px;
+}
+
+.b-card._small .card_number {
+    top: 52px;
+    left: 12px;
+}
+
+.b-card .card_number:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.b-card .card_number-item {
+    float: left;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-size: 21px;
+}
+
+.b-card .card_number._l15 .card_number-item { margin-left: 14px; }
+.b-card .card_number._l17 .card_number-item { margin-left: 5px; }
+.b-card .card_number._l18 .card_number-item { margin-left: 6px; letter-spacing: 0; }
+.b-card .card_number._l19 .card_number-item { margin-left: 3px; letter-spacing: 0; }
+
+.b-card._small .card_number-item {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.b-card._small .card_number._l15 .card_number-item { margin-left: 7px; }
+.b-card._small .card_number._l17 .card_number-item { margin-left: 2px; }
+.b-card._small .card_number._l18 .card_number-item { margin-left: 5px; letter-spacing: 0; }
+.b-card._small .card_number._l19 .card_number-item { margin-left: 3px; letter-spacing: 0; }
+
+.b-card .card_number-item:first-child {
+    margin-left: 0 !important;
+}
+
+.b-card .card_expiry {
+    position: absolute;
+    top: 113px;
+    left: 19px;
+}
+
+.b-card._small .card_expiry {
+    top: 72px;
+    left: 12px;
+}
+
+.b-card .card_currency {
+    position: absolute;
+    top: 113px;
+    left: 123px;
+}
+
+.b-card._small .card_currency {
+    top: 72px;
+    left: 78px;
+}
+
+.b-card .card_expiry-label,
+.b-card .card_currency-label {
+    margin-bottom: 2px;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+.b-card._small .card_expiry-label,
+.b-card._small .card_currency-label {
+    font-size: 5px;
+    line-height: 1;
+}
+
+.b-card .card_expiry-value,
+.b-card .card_currency-value {
+    text-transform: uppercase;
+}
+
+.b-card._small .card_expiry-value,
+.b-card._small .card_currency-value {
+    font-size: 8px;
+}
+
+.b-card .card_currency-value._rub {
+    position: relative;
+}
+
+.b-card .card_currency-value._rub:before {
+    content: '\e600';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    font-family: rub;
+    font-size: 10px;
+}
+
+.b-card._small .card_currency-value._rub {
+    top: 1px;
+}
+
+.b-card._small .card_currency-value._rub:before {
+    top: 3px;
+    font-size: 9px;
+    line-height: 0;
+}

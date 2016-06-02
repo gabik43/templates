@@ -1,0 +1,20 @@
+.b-period {
+    margin-top: 15px;
+}
+
+.b-period .period_item {
+    position: relative;
+    display: inline-block;
+    color: #444;
+    cursor: pointer;
+}
+
+.b-period .period_item-name {
+    border-bottom: 1px dashed #999;
+}
+
+.b-period .period_item-name:hover,
+.b-period .period_item-name.-active {
+    color: #ff8341;
+    border-bottom-color: #ff8341;
+}

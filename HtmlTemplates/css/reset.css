@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font: 14px/1.1 Arial, Tahoma, sans-serif;
+    transition: opacity,.5s, ease-in;
+}
+
+p,h1,h2,h3 {
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+form {
+    margin: 0;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+input,
+textarea,
+button {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+input[type=text] {
+    width: 100%;
+    background: none;
+    font: 14px/1.1 Arial, Tahoma, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    border: none;
+}

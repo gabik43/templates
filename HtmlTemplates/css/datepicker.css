@@ -1,0 +1,103 @@
+.b-datepicker {
+    width: 232px;
+    padding: 9px 12px 14px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(198,198,198,.6);
+    z-index: 20;
+    outline: none;
+}
+
+.b-datepicker .datepicker_header {
+    position: relative;
+    height: 24px;
+    margin-bottom: 17px;
+    border: 1px solid #9da3a8;
+    border-radius: 4px;
+}
+
+.b-datepicker .datepicker_move {
+    position: absolute;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.b-datepicker .datepicker_move._prev {
+    border-right: 1px solid #9da3a8;
+    left: 1px;
+}
+
+.b-datepicker .datepicker_move._next {
+    border-left: 1px solid #9da3a8;
+    right: 1px;
+}
+
+.b-datepicker .datepicker_move:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    width: 6px;
+    height: 9px;
+}
+
+.b-datepicker .datepicker_move._prev:before {
+    left: 7px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAJCAMAAAAmRK2vAAAAPFBMVEX///+BgYH5+fl2dnaKioqdnZ2QkJCFhYV9fX3p6enn5+fQ0NDJycmrq6unp6ejo6OXl5eMjIx6enpsbGywfLISAAAAN0lEQVQI1yWLRw4AMAjDCHTv8f+/FlQfLEWRyWBvLvGq2xEhngIk8gLnQNxj2NCvBl1KXul34wEdLQD16zUzgwAAAABJRU5ErkJggg==') 0 0 no-repeat;
+}
+
+.b-datepicker .datepicker_move._next:before {
+    right: 7px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAJCAMAAAAmRK2vAAAAOVBMVEX///+BgYH5+fmLi4t2dnadnZ2QkJCFhYV9fX3p6enn5+fQ0NDHx8erq6unp6ejo6OXl5d6enpsbGw/zXpbAAAANElEQVQI1x3LSQIAIAgCQDXL9u3/j03iMgeAohByrQLV053MrEuIQ2CNTrIhoKHbBcv5fw8dCQDmkHa80QAAAABJRU5ErkJggg==') 0 0 no-repeat;
+}
+
+
+.b-datepicker .datepicker_date {
+    position: absolute;
+    left: 50%;
+    width: 120px;
+    margin-left: -60px;
+    padding-top: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.b-datepicker .datepicker_td {
+    width: 30px;
+    height: 30px;
+    border-top: 1px solid #c9c9c9;
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.b-datepicker .datepicker_tr:first-child .datepicker_td {
+    border-top: none;
+}
+
+.b-datepicker .datepicker_td:hover {
+    background: #f7941d;
+    color: #fff;
+}
+
+.b-datepicker .datepicker_td.-selected {
+    background: #f7941d;
+    color: #fff;
+}
+
+.b-datepicker .datepicker_td.-disabled,
+.b-datepicker .datepicker_td.-disabled:hover {
+    background: none;
+    cursor: default;
+    color: #ccc;
+}
+
+.b-datepicker .datepicker_td._current {
+    font-weight: bold;
+}

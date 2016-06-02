@@ -1,0 +1,40 @@
+.b-shortcuts {}
+
+.b-shortcuts .shortcuts_title {
+    float: left;
+    color: #999;
+    font-size: 13px;
+}
+
+.b-shortcuts .shortcuts_ul {
+    margin-left: 67px;
+    overflow: hidden;
+
+}
+
+.b-shortcuts .shortcuts_ul:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.b-shortcuts .shortcuts_li {
+    float: left;
+    padding-bottom: 3px;
+    margin-left: 10px;
+    color: #65a7a8;
+}
+
+.b-shortcuts .shortcuts_link {
+    display: inline-block;
+    color: #65a7a8;
+    text-decoration: none;
+    border-bottom: 1px dotted #80b4b5;
+    line-height: 1;
+    font-size: 13px;
+}
+
+.b-shortcuts .shortcuts_link:hover {
+    color: #ff8341;
+    border-bottom-color: #ff8341;
+}

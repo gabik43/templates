@@ -1,0 +1,19 @@
+.b-aside {
+    padding: 20px 0 35px;
+}
+
+.b-aside .aside_row {
+    padding-top: 30px;
+}
+
+.b-aside .aside_row._advertising {
+    padding-top: 50px;
+}
+
+.b-aside .aside_row._news {
+    padding-top: 45px;
+}
+
+.b-aside .aside_row:first-child {
+    padding-top: 0;
+}

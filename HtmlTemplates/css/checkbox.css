@@ -1,0 +1,15 @@
+.b-checkbox {
+    position: relative;
+}
+
+.b-checkbox .checkbox_label {
+    padding-left: 20px;
+}
+
+.b-checkbox .checkbox_input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 14px;
+    height: 14px;
+}

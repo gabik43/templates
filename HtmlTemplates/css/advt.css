@@ -1,0 +1,18 @@
+.b-advt {}
+
+.b-advt .advt_title {
+    padding-bottom: 8px;
+}
+
+.b-advt .advt_link {
+    color: #29ab00;
+    font-weight: bold;
+}
+
+.b-advt .advt_link:hover {
+    color: #f7941e;
+}
+
+.b-advt .advt_content {
+    line-height: 1.3;
+}

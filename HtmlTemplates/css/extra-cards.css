@@ -1,0 +1,113 @@
+.b-extra-cards {
+    position: relative;
+}
+
+.b-extra-cards .extra-cards_header {
+    position: relative;
+    padding: 0 10px 0 37px;
+}
+
+.b-extra-cards .extra-cards_header-text {
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.b-extra-cards.-active .extra-cards_header-text,
+.b-extra-cards .extra-cards_header-text:hover {
+    border-color: #ff8341;
+    color: #ff8341;
+}
+
+.b-extra-cards .extra-cards_icon {
+    position: absolute;
+    top: -4px;
+    left: 5px;
+}
+
+.b-extra-cards .extra-cards_icon-top,
+.b-extra-cards .extra-cards_icon-bottom {
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    border-radius: 2px;
+}
+
+.b-extra-cards .extra-cards_icon-top {
+    top: 0;
+    left: 0;
+    border: 1px solid #fff;
+    background: #fdc538;
+    text-align: center;
+    z-index: 2;
+}
+
+.b-extra-cards .extra-cards_icon-bottom {
+    top: 2px;
+    left: 2px;
+    background: #e1b443;
+    z-index: 1;
+}
+
+.b-extra-cards .extra-cards_cards-qty {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #fff;
+}
+
+/* info (dropdown) */
+
+.b-extra-cards .extra-cards_info {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 6px;
+    width: 400px;
+    padding: 30px 50px 30px 30px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(128,128,128,.4);
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+.ie678 .b-extra-cards .extra-cards_info {
+    border: 1px solid #e2e2e0;
+}
+
+.b-extra-cards .extra-cards_info-header {
+    padding: 30px 40px 20px;
+}
+
+.b-extra-cards .extra-cards_info-base {
+    padding: 30px 40px 50px;
+}
+
+.b-extra-cards .extra-cards_info-base:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.b-extra-cards .extra-cards_info-aside {
+    width: 180px;
+    float: left;
+    padding-right: 30px;
+}
+
+.b-extra-cards .extra-cards_info-main {
+    overflow: hidden;
+    padding-left: 30px;
+    margin-left: 180px;
+    border-left: 1px solid #e7e3d9;
+}
+
+.b-extra-cards .extra-cards_item {
+    margin-top: 30px;
+}
+
+.b-extra-cards .extra-cards_item:first-child {
+    margin-top: 0;
+}

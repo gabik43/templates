@@ -1,0 +1,51 @@
+.b-card-info {
+    padding-left: 13px;
+}
+
+.b-card-info .card-info_item {
+    padding-top: 12px;
+}
+
+.b-card-info .card-info_item._inline {
+    padding-top: 5px;
+}
+
+.b-card-info .card-info_item._inline._first {
+    margin-top: 17px;
+}
+
+.b-card-info .card-info_item:first-child {
+    padding-top: 0;
+}
+
+.b-card-info .card-info_item-title {
+    text-transform: uppercase;
+    color: #767676;
+    letter-spacing: 1px;
+}
+
+.b-card-info .card-info_item._inline .card-info_item-title {
+    font-size: 12px;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.b-card-info .card-info_item-value {
+    position: relative;
+    padding-top: 2px;
+    font-weight: bold;
+}
+
+.b-card-info .card-info_item-value ._currency._rub:after {
+    font-family: rub;
+    content: '\e600';
+    position: relative;
+    top: 0;
+    right: 1px;
+    font-size: 9px;
+}
+
+.b-card-info .card-info_item._inline .card-info_item-value {
+    font-size: 12px;
+    padding-top: 0;
+}

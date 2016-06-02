@@ -1,0 +1,52 @@
+.b-history {
+    position: relative;
+}
+
+.b-history .history_title {
+    font-size: 28px;
+    color: #333;
+}
+
+.b-history .history_title-text {
+    line-height: 0.9;
+}
+
+.b-history .history_chart {
+    padding-bottom: 20px;
+}
+
+.b-history .history_data {
+    padding-bottom: 100px;
+}
+
+.b-history .history_data:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.b-history .history_categories {
+    float: left;
+    width: 240px;
+}
+
+.b-history .history_main {
+    padding-left: 35px;
+    margin-left: 240px;
+    overflow: hidden;
+}
+
+.b-history .history_search {
+    padding-bottom: 10px;
+}
+.b-history .history_shortcuts {
+    padding-bottom: 12px;
+}
+
+.b-history .history_trs {
+
+}
+
+.b-history .history_cards-filter {
+    display: inline-block;
+}
